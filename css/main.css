@@ -133,7 +133,7 @@ header.scrolled {
   display: -ms-flexbox;
   display: flex;
   padding-top: 200px;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -161,4 +161,76 @@ header.scrolled {
   line-height: 25px;
   color: #ececeb;
   margin-top: 50px;
+  max-width: 427px;
+}
+
+.strijki {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgb(73, 72, 72);
+}
+
+.about {
+  color: #eecec6;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.45;
+  padding: 41px 0 0 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.about-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+}
+
+.about-list {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.about-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 10px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.about-price {
+  margin-left: auto;
+  color: rgb(252, 208, 150);
+}
+
+.about-do {
+  font-size: 16px;
+  line-height: 1.55;
+  font-weight: 600;
+  color: #c2c2c2;
+  font-family: "DM Sans";
+  text-align: start;
 }/*# sourceMappingURL=main.css.map */

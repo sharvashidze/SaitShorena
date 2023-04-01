@@ -1,0 +1,52 @@
+.strijki{
+    padding-top: 60px;
+    padding-bottom: 60px;
+   background-color:rgb(73, 72, 72) ;
+}
+.about{
+    color: #eecec6;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        justify-content: center;
+            display: flex;
+}
+.about-text{
+    font-size: 18px;
+        font-weight: 400;
+        line-height: 1.45;
+        padding: 41px 0 0 0;
+        color: #ffffff;
+        text-align: center;
+}
+.about-block{
+    display: flex;
+    margin-top: 60px;
+}
+.about-list{
+    display: inline-flex;
+        flex-wrap: wrap;
+        margin-right: 30px;
+            margin-bottom: 40px;
+            align-items: baseline;
+}
+.about-title{
+        font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 10px;
+            color: #ffffff;
+                margin-bottom: 25px;
+}
+.about-price{
+    margin-left: auto;
+    color: rgb(252, 208, 150);
+}
+.about-do{
+        font-size: 16px;
+            line-height: 1.55;
+    font-weight: 600;
+    color: #c2c2c2;
+    font-family: 'DM Sans';
+        text-align:start;
+}
