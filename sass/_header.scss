@@ -116,6 +116,13 @@ header.scrolled {
                 transition: color 0.5s ease;
                 color: bisque;
             }
+                         @media screen and (max-width: 479px) {
+                             display: none;
+                         }
+            
+                         @media screen and (min-width: 480px) and (max-width: 767px) {
+                             display: none;
+                         }
 }
 .nav-list:not(:last-child){
     margin-right: 30px;

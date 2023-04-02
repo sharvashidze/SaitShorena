@@ -54,9 +54,18 @@
           <!-- <span class="typed" data-typed-items="Парикмахер, Мастер, Визажист">Парикмахер</span>
           <span class="typed-cursor typed-cursor--blink" aria-hidden="true">|</p> -->
         <div type="button" class='containeri'>
-  <a href=""><span class='pulse-button'>ЗАПИСЬ</span></a>
+ <span class='pulse-button'data-modal-open >ЗАПИСЬ</span>
 </div>
           </div>
+          <div class="backdrop is-hidden" data-modal>
+          <div class="modal-second">
+            <button class="modal-x" data-modal-close>
+              <svg width="18" height="18" class="modal-close">
+                <use href="./images/symbol-defs.svg#iconmenuX"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
     </section>
     <section class="container strijki">
       <h2 class="about">СТРИЖКИ</h2>
@@ -119,5 +128,6 @@
    <script src="./js/header.js"></script>
    <script src="./js/hero.js"></script>
    <script src="./js/menu.js"></script>
+   <script src="./js/modal.js"></script>
 </body>
 </html>

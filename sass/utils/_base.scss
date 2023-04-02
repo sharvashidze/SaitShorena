@@ -35,16 +35,31 @@ img {
     padding-right: 40px;
     
 
-    // @media screen and (min-width: 480px) {
-    //     width: 480px;
-    // }
+    @media screen and (min-width: 480px) {
+        width: 480px;
+        padding-left: 10px;
+    padding-right: 10px;
+    }
 
-    // @media screen and (min-width: 768px) {
-    //     width: 768px;
-    // }
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        padding-left: 20px;
+    padding-right: 20px;
+    }
 
-    // @media screen and (min-width: 1200px) {
-    //     width: 1215px;
+    @media screen and (min-width: 1200px) {
+        width: 1215px;
        
-    // }
+    }
+}
+.is-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+    text-align: center;
 }
