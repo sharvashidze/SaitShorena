@@ -242,9 +242,9 @@ header.scrolled {
   line-height: 12px;
   color: #ececeb;
 }
-@media screen and (min-width: 380px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .Hero-title {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 
@@ -422,4 +422,61 @@ header.scrolled {
   border: 1.5px solid #fffdfd;
   width: 100%;
   margin-bottom: 8px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 25px 20px;
+  background-color: rgb(252, 208, 150);
+  z-index: 1000;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  overflow-y: scroll;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.modal.is-open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.modal-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 10px;
+  background-color: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  border-style: none;
+  padding: 10px;
+}
+
+.modal-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  background-color: inherit;
+  border-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */

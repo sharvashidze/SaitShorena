@@ -29,6 +29,8 @@
     <p class="logo-list">HEALTH&BEAUTY STUDIO</p>
     </a>
     </div>
+    <button type="button" aria-expanded="false"
+          aria-controls="mobile-menu" class="modal-head js-open-menu"><svg width="18px" height="18px"><use href="./images/symbol-defs.svg#icontelmenu"></use></svg></button>
     <nav class="nav-modul">
       <ul class="nav">
         <li class="nav-list"><a href="" class="nav-text nav-stop"><span class="nav-link">Наши услуги</span></a></li>
@@ -101,21 +103,21 @@
       </div>
     </section>
    </main>
-   <div class="modal">   
-    <nav>
-      <ul class="nav">
+   <div class="modal js-menu-container"  id="mobile-menu">   
+      <button type="button" class="modal-btn  js-close-menu"><svg width="16px" height="16px"><use href="./images/symbol-defs.svg#iconmenuX"></use></svg></button>
+      <ul class="">
         <li class="nav-list"><a href="" class="nav-text">Наши услуги</a></li>
         <li class="nav-list"><a href="" class="nav-text">Акции</a></li>
         <li class="nav-list"><a href="" class="nav-text">Прайс</a></li>
         <li class="nav-list"><a href="" class="nav-text">Галерея</a></li>
       </ul>
-    </nav>
-    <ul class="nav-contacts">
+    <ul class="">
       <li class="nav-list"><a href="mailto:info@devstudio.com" class="nav-mail">info@devstudio.com</a></li>
       <li class="nav-list"><a href="tell:89139449363" class="nav-tel">8 (913) 944-93-63</a></li>
     </ul>
   </div>
    <script src="./js/header.js"></script>
    <script src="./js/hero.js"></script>
+   <script src="./js/menu.js"></script>
 </body>
 </html>
