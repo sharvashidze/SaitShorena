@@ -4,6 +4,7 @@
    background-color:rgb(73, 72, 72) ;
 }
 .about{
+    font-family: "Caveat";
     color: #eecec6;
         font-size: 30px;
         text-transform: uppercase;
@@ -12,8 +13,9 @@
             display: flex;
 }
 .about-text{
-    font-size: 18px;
-        font-weight: 400;
+    font-family: "Caveat";
+    font-size: 25px;
+        font-weight: 600;
         line-height: 1.45;
         padding: 41px 0 0 0;
         color: #ffffff;
@@ -31,11 +33,13 @@
             align-items: baseline;
 }
 .about-title{
+    font-family: "Caveat";
         font-style: normal;
-            font-weight: 500;
+            font-weight: 700;
             font-size: 20px;
             line-height: 10px;
-            color: #ffffff;
+            color: #eecec6;
+            
                 margin-bottom: 25px;
 }
 .about-price{
@@ -46,7 +50,12 @@
         font-size: 16px;
             line-height: 1.55;
     font-weight: 600;
-    color: #c2c2c2;
-    font-family: 'DM Sans';
+    color: #ffffff;
+    // font-family: "Caveat";
         text-align:start;
+}
+.about-p{
+border: 1.5px solid #fffdfd;
+    width: 100%;
+    margin-bottom: 8px;
 }
