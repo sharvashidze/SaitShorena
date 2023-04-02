@@ -32,4 +32,61 @@
         color: #ececeb;
         margin-top: 50px;
         max-width: 427px;
+        text-align: center;
+}
+
+.dop-conteiner{
+    display: flex;
+    justify-content: center;
+}
+.containeri {
+    width: 200px;
+    height: 100%;
+    margin: 0 auto 0;
+    perspective: 1000;
+    
+margin-top: 125px;
+}
+.pulse-button{
+    position: relative;
+        top: 50%;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: -50px;
+        display: block;
+        width: 100px;
+        height: 100px;
+        font-size: 1.3em;
+        font-family: 'Caveat';
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 100px;
+            letter-spacing: -1px;
+            color: #545352;
+            border: none;
+            border-radius: 50%;
+            background: bisque;
+            cursor: pointer;
+            box-shadow: 0 0 0 0 rgba(bisque, .5);
+            animation: pulse 1.5s infinite;
+            &:hover{
+                animation: none;
+            } 
+
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 50px rgba(bisque, 0);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 50px rgba(bisque, 0);
+    }
 }
